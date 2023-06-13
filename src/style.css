@@ -1,0 +1,85 @@
+body {
+    background-color: #2f3848;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* header et footer */
+/* ----------------------------------------- */
+header {
+    background-color: #f05768;
+    border-bottom: white 5px solid;
+    margin-bottom: 1em;
+    color: white;
+    padding: 1em;
+}
+
+footer {
+    background-color: #f05768;
+    border-top: white 5px solid;
+    margin-top: 1em;
+    color: white;
+    padding: 1em;
+}
+
+header h1 {
+    font-size: 4em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header ul, footer ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+header ul li a, footer ul li a {
+    color: white;
+    font-size: 2em;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+/* ----------------------------------------- */
+
+/* Fiche */
+/* ----------------------------------------- */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+article {
+    width: calc(25% - 2px - 2.4em );
+    background-color: #424b5c;
+    border: #00ccff solid 1px;
+    padding: 1em;
+    margin: 0.2em;
+}
+
+article h3 {
+    color: yellowgreen;
+    text-align: center;
+    height: 3em;
+    text-transform: capitalize;
+}
+
+article img {
+    width: 100%;
+}
+
+article a {
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+/* ----------------------------------------- */
+
+.clock {
+    font-size: 2em;
+    border: white solid 1px;
+    padding: 0.1em;
+}
